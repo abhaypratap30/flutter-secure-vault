@@ -1,0 +1,62 @@
+# ==========================================
+# Vault - Open Source Git Ignore Policy
+# ==========================================
+
+# Miscellaneous / OS
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+Thumbs.db
+hs_err_pid*.log
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# Flutter / Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Security Credentials & Environment Secrets
+android/key.properties
+android/app/key.properties
+**/*.keystore
+**/*.jks
+**/google-services.json
+!**/google-services.json.template
+**/GoogleService-Info.plist
+!**/GoogleService-Info.plist.template
+.env
+.env.*
+
+# Android Local Files
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/.gradle
+
+# iOS Local Files
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flt

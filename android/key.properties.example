@@ -1,0 +1,6 @@
+# Android release signing configuration template
+# Copy this file to 'key.properties' and fill in your keystore values.
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=YOUR_KEY_ALIAS
+storeFile=upload-keystore.jks
